@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+    scroll-behavior: smooth;
+}   
+body{
+    background-color: rgb(97, 94, 92);
+    margin: 0 auto;
+    color:#ffffff;
+    overflow-x: hidden;
+   
+}
+a{
+    cursor: pointer !important;
+}
+.bg-imagen{
+    background-image: url(/assets/IMG_20231126_222111_820\ 2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.max-width{
+    max-width: 900px;
+}
+.width{
+    width: 100%;
+}
+.margin{
+    margin: 0 auto;
+}
+.height-welcome{
+    height: 50vh;
+}
+.height-correct-myname{
+    height: 86vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.index{
+    z-index: 999;
+}
+.index2{
+    z-index: 998;
+
+}
+.height-correct-skills{
+    height: 30vh;
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.height-correct-whoIme{
+    margin-top: 15rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.height-correct-proyectos{
+    margin-top: 15rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.text-color-special-string{
+    color:#F10404;
+}
+.title-text-size{
+    font-size: 2rem;
+}
+.my-description{
+    font-size: 4rem;
+}
+.descriptive-text-size{
+    font-size: 2.3rem;
+}
+.font-family-mochi{
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.font-family-lobster{
+    font-family: 'Lobster', sans-serif;
+}
