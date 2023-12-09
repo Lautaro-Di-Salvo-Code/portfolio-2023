@@ -430,8 +430,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%;
+  height: auto; */
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
@@ -698,7 +698,7 @@ video {
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
 
-.bg-blue-400 {
+/* .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
@@ -706,7 +706,7 @@ video {
 .bg-green-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
-}
+} */
 
 .bg-orange-500 {
   --tw-bg-opacity: 1;
@@ -742,7 +742,7 @@ html{
 }
 
 body{
-  background-color: rgb(97, 94, 92);
+  background-color:rgb(44, 42, 74);
   margin: 0 auto;
   color:#ffffff;
   overflow-x: hidden;
@@ -752,13 +752,7 @@ a{
   cursor: pointer !important;
 }
 
-.bg-imagen{
-  background-image: url(/assets/IMG_20231126_222111_820\ 2.png);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+
 
 .max-width{
   max-width: 900px;
@@ -812,7 +806,7 @@ a{
 }
 
 .text-color-special-string{
-  color:#F10404;
+  color:#fcfcfc;
 }
 
 .title-text-size{

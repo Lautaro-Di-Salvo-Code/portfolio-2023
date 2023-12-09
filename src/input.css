@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }   
 body{
-    background-color: rgb(97, 94, 92);
+    background-color:rgb(44, 42, 74);
     margin: 0 auto;
     color:#ffffff;
     overflow-x: hidden;
@@ -18,7 +18,7 @@ a{
     cursor: pointer !important;
 }
 .bg-imagen{
-    background-image: url(/assets/IMG_20231126_222111_820\ 2.png);
+    background-image: url(../assets/yoCodeando.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -44,6 +44,10 @@ a{
     flex-wrap: wrap;
     align-content: center;
 }
+.height-icon-name{
+   
+    height: 47px;
+}
 .index{
     z-index: 999;
 }
@@ -68,7 +72,12 @@ a{
     display: flex;
     /* flex-wrap: wrap; */
 }
-
+.bg-aboutme1{
+    background-color: #4F518C;
+}
+.bg-aboutme2{
+    background-color: #907AD6;
+}
 .text-color-special-string{
     color:#F10404;
 }
