@@ -95,7 +95,12 @@ a{
     font-size: 1.3rem;
 
 }
-
+.margin-aboutme{
+    margin-bottom: 56%;
+}
+.margin-projects{
+    margin-bottom: 45%;
+}
 .width-projects{
     width: 100%;
 }
