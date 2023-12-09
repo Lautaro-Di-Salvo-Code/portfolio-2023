@@ -1,0 +1,68 @@
+.slider{            
+    /* width: 60%; */
+    height: 100%;
+    margin: 5rem auto;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+}
+.width-projects{
+    width: 100%;
+}
+
+.hijo-slider{
+    position: relative;
+    height: 70vh;
+
+}
+.nieto-slider{
+    object-position: 10rem;
+    object-fit: cover;
+    outline: 1px black solid;
+    position: absolute;
+    opacity: 0;
+    /* margin: auto; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .4s  ;
+}
+.active{
+    opacity: 1;
+    transition: .4s ease;
+    visibility:visible;
+}
+.btn-slider{
+    position: absolute;
+    top: 35%;
+    transition: 1s all ease;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ancho-proyectos{
+    width: 70%;
+}
+.back,
+.next{
+    display: inline-flex;
+    background-color: chocolate;
+    border-radius: 50%;
+    font-size:medium;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size: 5rem;
+    height:5rem ;
+    width: 5rem;
+    text-decoration: none;
+    color: brown;
+    
+}
