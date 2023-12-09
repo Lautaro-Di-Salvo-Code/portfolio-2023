@@ -101,7 +101,7 @@ a{
 
 /* efecto en proyectos de zoom */
 
-.shadow-pop-tr:hover{
+/* .shadow-pop-tr:hover{
 	-webkit-animation: shadow-pop-tr .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 	        animation: shadow-pop-tr .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
@@ -140,7 +140,7 @@ a{
       -webkit-transform: translateX(-8px) translateY(8px);
               transform: translateX(-8px) translateY(8px);
     }
-  }
+  } */
   
 
   .text-pop-up-top:hover {
