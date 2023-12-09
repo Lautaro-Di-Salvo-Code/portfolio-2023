@@ -79,9 +79,13 @@ a{
 .bg-aboutme1{
     background-color: #4F518C;
 }
-.bg-aboutme2{
-    background-color: #907AD6;
+.bg-projects{
+    background-color: #505163;
+
 }
+/* .bg-aboutme2{
+    background-color: #907AD6;
+} */
 .text-color-special-string{
     color:#F10404;
 }
