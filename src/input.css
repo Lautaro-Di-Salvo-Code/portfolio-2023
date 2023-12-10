@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url(/portfolio-2023/src/carrusel.css);
+@import url(/portfolio-2023/src/mobile.css);
 
 html{
     scroll-behavior: smooth;
@@ -21,13 +22,7 @@ a{
 .ancho-proyectos >*{
     cursor: pointer;
 }
-.bg-imagen{
-    background-image: url(../assets/yoCodeando.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
+
 
 
 .max-width{
@@ -48,15 +43,12 @@ a{
     flex-wrap: wrap;
     align-content: center;
 }
-.height-icon-name{
-   
-    height: 47px;
-}
+
 .index{
-    z-index: 999;
+    z-index: 995;
 }
 .index2{
-    z-index: 998;
+    z-index: 994;
 
 }
 .height-correct-skills{
@@ -85,6 +77,7 @@ a{
 .bg-projects{
     background-color: #505163;
 
+
 }
 /* .bg-aboutme2{
     background-color: #907AD6;
@@ -92,12 +85,8 @@ a{
 .text-color-special-string{
     color:#F10404;
 }
-.title-text-size{
-    font-size: 2rem;
-}
-.my-description{
-    font-size: 4rem;
-}
+
+
 .descriptive-text-size{
     font-size: 1.3rem;
 

@@ -777,13 +777,7 @@ a{
   align-content: center;
 }
 
-.index{
-  z-index: 999;
-}
 
-.index2{
-  z-index: 998;
-}
 
 .height-correct-skills{
   height: 30vh;
@@ -813,9 +807,6 @@ a{
   font-size: 2rem;
 }
 
-.my-description{
-  font-size: 4rem;
-}
 
 
 .font-family-mochi{

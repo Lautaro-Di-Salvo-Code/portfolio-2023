@@ -1,0 +1,108 @@
+@media screen and (max-width:800px) {
+    
+    
+    .nav-positioning{
+        display: none;
+    }
+    .title-text-size{
+        font-size: 2rem;
+    }
+    
+    .my-description{
+        font-size: 6vw;
+    }
+
+    .bg-imagen-mob{
+
+        background-image: url(../assets/fondoCelular.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    .height-icon-name{
+    
+        /* padding-top: .5rem; */
+        /* height: 10vw; */
+    }
+    .tamaño-icon-light{
+        width: 2rem;
+    }
+    .nav-positioning-mob.active{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 998;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        top: 0px; 
+        z-index: 999;
+        opacity: 1;
+        transition: opacity ease-in .5s ;
+        
+        backdrop-filter: blur(1rem);
+    }
+    .nav-positioning-mob{
+        display: none;
+        opacity: 0;
+        transition: opacity ease-in .5s ;
+    }
+   
+    /* barra de navegacion mobile */
+    .article-options-mob{
+        display: flex;
+        position: fixed;
+        justify-content: space-around;
+        align-items: center;
+        bottom: 1px;
+        height: 3rem;
+        background-color: #907AD6;
+        z-index: 999;
+    }
+    .size-button-navbar-open{
+        display: block;
+        cursor: pointer;
+        width:30px ;
+    }
+    .size-button-navbar-close{
+        display: none;
+        cursor: pointer;
+        width:30px ;
+    }
+   
+}
+
+
+@media screen and (min-width:800px) {
+    .article-options-mob{
+        display: none;
+    }
+    .nav-positioning-mob{
+        display: none;
+        z-index: 998;
+    }
+    .height-icon-name{
+        padding-top: 3rem;
+        height: 95px;
+    }
+
+    .bg-imagen{
+        background-image: url(../assets/yoCodeando.png);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100vh;
+        object-fit: fill;
+}
+    .my-description{
+        font-size: 4rem;
+    }
+    
+    .nav-positioning{
+        display: block;
+    }
+
+}
