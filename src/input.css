@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(/portfolio-2023/src/carrusel.css);
-@import url(/portfolio-2023/src/mobile.css);
+
+
 
 html{
     scroll-behavior: smooth;
