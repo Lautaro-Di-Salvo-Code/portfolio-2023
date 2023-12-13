@@ -37,8 +37,8 @@ i{
     align-content: center;
     transition: ease-in-out 1s ;
     position: fixed;
-    /* background-color: #3e3f6c; */
-    backdrop-filter: blur(1rem);
+    /* backdrop-filter: blur(1rem); */
+    background-color: #3e3f6c;
     z-index: 999;
 }
 
