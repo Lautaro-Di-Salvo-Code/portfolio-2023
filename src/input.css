@@ -150,7 +150,7 @@ a{
     width: 5rem;
     
     position: fixed;
-    left: 90rem;
+    right: 5rem;
     top: 28rem;
     
     transition: 1s ;
