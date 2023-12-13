@@ -46,16 +46,15 @@
 
     .height-icon-name{
     
-        /* padding-top: .5rem; */
-        /* height: 10vw; */
+        
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+        height: 8vw;
+        
     }
     .tamaño-icon-light{
         width: 2rem;
-    }
-    .height-icon-name{
-        /* padding: 1rem; */
-        height: 40px;
-        
     }
     .height-correct-myname-mob{
         position: relative;
