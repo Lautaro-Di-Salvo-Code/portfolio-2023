@@ -44,7 +44,8 @@ body{
     margin: 0 auto;
     color:#ffffff;
     overflow-x: hidden;
-    font-family: 'Mochiy Pop One', sans-serif;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+    font-family: 'Jost', sans-serif;
    
 }
 a{
@@ -142,12 +143,12 @@ a{
     display: none;
     
     opacity: 0;
-    transition: 1s ease ;
+    
 }
 .img-arrow-scroll{
     
     opacity: 1;
-    transition: 1s ease ;
+    
     height: 5rem;
     width: 5rem;
     
@@ -156,6 +157,7 @@ a{
     top: 28rem;
     border-radius:50%;
     outline: 10rem ;
+    transition: all 1s ease ;
 } 
 .img-arrow-scroll:hover{
     transition: 1s ;
