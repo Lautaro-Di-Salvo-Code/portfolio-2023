@@ -93,7 +93,7 @@ a{
     align-content: center;
 }
 .height-correct-whoIme{
-    margin-top:30rem;
+    margin-top:14rem;
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -131,10 +131,11 @@ a{
 .text-color-special-string{
     color:#F10404;
 }
-.button-arrow-up{
+.button-arrow-up:hover{
     position: relative;
     border-radius: 3rem;
     /* color: #3ebfff; */
+    
 }
 
 .img-arrow{
@@ -144,18 +145,25 @@ a{
     transition: 1s ;
 }
 .img-arrow-scroll{
-    border-radius: 50%;
-    background-color: #c3c8ca82;
+    
     height: 5rem;
     width: 5rem;
     
     position: fixed;
     right: 5rem;
     top: 28rem;
-    
+    border-radius:50%;
+    outline: 10rem ;
+} 
+.img-arrow-scroll:hover{
     transition: 1s ;
-    
+    background-color: #b6b6d1;
 }
+.img-arrow-scroll:not(:hover){
+    transition: 1s ;
+
+}
+
 
 
 .descriptive-text-size{
