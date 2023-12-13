@@ -142,10 +142,12 @@ a{
     display: none;
     
     opacity: 0;
-    transition: 1s ;
+    transition: 1s ease ;
 }
 .img-arrow-scroll{
     
+    opacity: 1;
+    transition: 1s ease ;
     height: 5rem;
     width: 5rem;
     
