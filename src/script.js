@@ -9,7 +9,7 @@ let buttonNavbar =()=>{
     let buttonClose = document.querySelector("size-button-navbar-close")
     let botonesEspañol = document.querySelector(".es")
     let botonesIngles = document.querySelector(".eng")
-    let botonIdioma = document.getElementById("botonidioma")
+    // let botonIdioma = document.getElementById("botonidioma")
     let barranav = document.querySelector(".nav-options"),
     arrowbtn = document.querySelector(".img-arrow")
     
@@ -47,17 +47,17 @@ let buttonNavbar =()=>{
     document.addEventListener("click" , e=>{
         
         
-        if(e.target.matches("#botonidioma")){
-            e.preventDefault()
-            botonIdioma.textContent = "Español"
-            botonesEspañol.classList.add("hidden")
+        // if(e.target.matches("#botonidioma")){
+        //     e.preventDefault()
+        //     botonIdioma.textContent = "Español"
+        //     botonesEspañol.classList.add("hidden")
             
-            botonesIngles.classList.remove(".eng")
+        //     botonesIngles.classList.remove(".eng")
             
-        }else{
+        // }else{
 
-            botonIdioma.textContent = "English"
-        }
+        //     botonIdioma.textContent = "English"
+        // }
         
         // if(e.target.matches("#botonidioma")){
             
