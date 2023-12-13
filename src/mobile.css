@@ -71,6 +71,7 @@
         flex-direction: column;
         justify-content: space-around;
         z-index: 998;
+        height: 95vh;
         bottom: 0px;
         right: 0px;
         left: 0px;
