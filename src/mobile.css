@@ -125,6 +125,21 @@
         background-color: #907AD6;
         z-index: 999;
     }
+    .img-arrow-scroll{
+        
+        opacity: 1;
+        color: #fff;
+        height: 4rem;
+        width: 4rem;
+        z-index: 999;
+        position: fixed;
+        right: 3rem;
+        top: 41rem;
+        border-radius:3rem;
+        background-color: #ffffff;
+        outline: 10rem ;
+        transition: all 1s ease ;
+    } 
     .size-button-navbar-open{
         display: block;
         cursor: pointer;
