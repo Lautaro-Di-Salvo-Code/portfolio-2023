@@ -9,7 +9,7 @@
     }
     
     .my-description{
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .bg-imagen-mob{
@@ -21,6 +21,29 @@
         height: 100vh;
     }
     
+    .box-tecnologies{
+        display: none;
+
+    }
+    .box-tecnologies-mob{
+
+        margin: 0 auto;
+        min-width: 90%;
+        height: 30vh;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-template-rows: repeat(2, 50%);
+        justify-content: space-around;
+    
+    }
+    .tecnologies-size{
+        height: 36px;
+    }
+    .tecnologies-text-size{
+        font-size: 12px;
+        text-align: center;
+    }
+
     .height-icon-name{
     
         /* padding-top: .5rem; */
@@ -29,6 +52,20 @@
     .tamaño-icon-light{
         width: 2rem;
     }
+    .height-icon-name{
+        /* padding: 1rem; */
+        height: 40px;
+        
+    }
+    .height-correct-myname-mob{
+        position: relative;
+        top: 2rem;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+      }
+      
     .nav-positioning-mob.active{
         position: absolute;
         display: flex;
@@ -76,33 +113,3 @@
 }
 
 
-@media screen and (min-width:800px) {
-    .article-options-mob{
-        display: none;
-    }
-    .nav-positioning-mob{
-        display: none;
-        z-index: 998;
-    }
-    .height-icon-name{
-        padding-top: 3rem;
-        height: 95px;
-    }
-
-    .bg-imagen{
-        background-image: url(/assets/yoCodeando.png);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        height: 100vh;
-        object-fit: fill;
-}
-    .my-description{
-        font-size: 4rem;
-    }
-    
-    .nav-positioning{
-        display: block;
-    }
-
-}
