@@ -148,6 +148,20 @@ a{
     flex-direction: row;
     gap: 1rem;
 }
+.about-me-img{
+    height: auto;
+    width: 24rem;
+    border-radius: 50%;
+}
+.aboutme-grid{
+    height: auto;
+    display: grid ;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2 , 50%);
+}
 .box-tecnologies-mob{
     display: none;
 }
@@ -199,7 +213,7 @@ a{
     
     height: 5rem;
     width: 5rem;
-    
+    z-index: 999;
     position: fixed;
     right: 5rem;
     top: 28rem;
@@ -221,6 +235,12 @@ a{
 .descriptive-text-size{
     font-size: 1.3rem;
 
+}
+.grid-projects{
+    display: grid;
+    grid-template-rows: repeat(2, 90%);
+    grid-template-columns: repeat(2, 45%);
+    gap: 2rem;
 }
 .margin-aboutme{
     margin-bottom: 56%;
