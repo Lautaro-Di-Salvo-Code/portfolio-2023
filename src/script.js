@@ -23,7 +23,7 @@ let buttonNavbar =()=>{
         console.log(window.scrollY)
 
 
-        if(window.scrollY > 700){
+        if(window.scrollY > 400){
             arrowbtn.classList.remove("img-arrow")
             arrowbtn.classList.add("img-arrow-scroll")
             
