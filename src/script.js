@@ -7,29 +7,48 @@ let buttonNavbar =()=>{
     let enlace = document.getElementById("barra-nav-link")
     let buttonOpen = document.querySelector("size-button-navbar-open")
     let buttonClose = document.querySelector("size-button-navbar-close")
-    let botonesEspañol = document.querySelectorAll(".es")
-    let botonesIngles = document.querySelectorAll(".eng")
+    let botonesEspañol = document.querySelector(".es")
+    let botonesIngles = document.querySelector(".eng")
     let botonIdioma = document.getElementById("botonidioma")
+    let barranav = document.querySelector(".nav-options")
    
     console.log(botonesIngles)
     console.log(botonesEspañol)
+    console.log(barranav)
+   
+
+    document.addEventListener("scroll" , e=>{
+        console.log(window.scrollY)
+        if(window.scrollY > 200){
+            barranav.classList.add("nav-options-fixed")
+        }else{
+            
+            barranav.classList.remove("nav-options-fixed")
+        }
+
+    })
+
+
+
     document.addEventListener("click" , e=>{
-
-
-
+        
+        
         if(e.target.matches("#botonidioma")){
             e.preventDefault()
             botonIdioma.textContent = "Español"
-            botonesEspañol.style.display = "none"
+            botonesEspañol.classList.add("hidden")
             
-            botonesIngles.style.display = "static"
+            botonesIngles.classList.remove(".eng")
             
         }else{
-            botonIdioma.textContent = "English"
-            botonesEspañol.style.display = "static"
-            botonesIngles.style.display = "none"
 
+            botonIdioma.textContent = "English"
         }
+        
+        // if(e.target.matches("#botonidioma")){
+            
+
+        // }
         // if(e.target.matches("#botonIdioma")){
         //     e.preventDefault()
             

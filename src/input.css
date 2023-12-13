@@ -12,12 +12,32 @@ i{
     border-radius: 2rem;
     background-image: linear-gradient(90deg, rgb(102, 167, 232) 39%, rgb(25, 47, 247) 95%);
 }
+.es{
+    display: static !important;
+}
 .eng{
     display: none !important;
 }
-.es{
-    display: static;
+.nav-options{
+    /* top: 1rem; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: ease-in-out 1s ;
 }
+.nav-options-fixed{
+    /* top: 1rem; */
+    display: flex;
+    height: 4rem;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: ease-in-out 1s ;
+    position: fixed;
+    background-color: #3e3f6c;
+    z-index: 999;
+}
+
 body{
     background-color:rgb(44, 42, 74);
     margin: 0 auto;
