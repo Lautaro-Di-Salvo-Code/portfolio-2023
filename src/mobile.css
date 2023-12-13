@@ -118,11 +118,9 @@
         position: fixed;
         justify-content: space-around;
         align-items: center;
-<<<<<<< HEAD
-        top: 43rem;
-=======
-        top: 48rem;
->>>>>>> 8406577a13927131de7765f14c181e02f96c8b90
+        /* top: 43rem; */
+        bottom: 0;
+        
         height: 9vh;
         background-color: #907AD6;
         z-index: 999;
