@@ -10,7 +10,9 @@ let buttonNavbar =()=>{
     let botonesEspañol = document.querySelector(".es")
     let botonesIngles = document.querySelector(".eng")
     let botonIdioma = document.getElementById("botonidioma")
-    let barranav = document.querySelector(".nav-options")
+    let barranav = document.querySelector(".nav-options"),
+    arrowbtn = document.querySelector(".img-arrow")
+    
    
     console.log(botonesIngles)
     console.log(botonesEspañol)
@@ -19,6 +21,18 @@ let buttonNavbar =()=>{
 
     document.addEventListener("scroll" , e=>{
         console.log(window.scrollY)
+
+
+        if(window.scrollY > 700){
+            arrowbtn.classList.remove("img-arrow")
+            arrowbtn.classList.add("img-arrow-scroll")
+            
+        }else {
+            arrowbtn.classList.remove("img-arrow-scroll")
+            arrowbtn.classList.add("img-arrow")
+
+        }
+        
         if(window.scrollY > 200){
             barranav.classList.add("nav-options-fixed")
         }else{

@@ -130,6 +130,31 @@ a{
 .text-color-special-string{
     color:#F10404;
 }
+.button-arrow-up{
+    position: relative;
+    border-radius: 3rem;
+    /* color: #3ebfff; */
+}
+
+.img-arrow{
+    display: none;
+    
+    opacity: 0;
+    transition: 1s ;
+}
+.img-arrow-scroll{
+    border-radius: 50%;
+    background-color: #c3c8ca82;
+    height: 5rem;
+    width: 5rem;
+    
+    position: fixed;
+    left: 90rem;
+    top: 28rem;
+    
+    transition: 1s ;
+    
+}
 
 
 .descriptive-text-size{
