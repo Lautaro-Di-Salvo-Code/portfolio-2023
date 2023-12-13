@@ -140,6 +140,7 @@
         outline: 10rem ;
         transition: all 1s ease ;
     } 
+    
     .size-button-navbar-open{
         display: block;
         cursor: pointer;
