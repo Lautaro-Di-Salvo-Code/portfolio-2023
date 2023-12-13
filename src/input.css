@@ -8,6 +8,16 @@
 html{
     scroll-behavior: smooth;
 }   
+i{
+    border-radius: 2rem;
+    background-image: linear-gradient(90deg, rgb(102, 167, 232) 39%, rgb(25, 47, 247) 95%);
+}
+.eng{
+    display: none !important;
+}
+.es{
+    display: static;
+}
 body{
     background-color:rgb(44, 42, 74);
     margin: 0 auto;
@@ -43,7 +53,10 @@ a{
     flex-wrap: wrap;
     align-content: center;
 }
-
+.tecnologias-bg{
+    border-radius: 3rem;
+    background-color: #3e3f6c;
+}
 .index{
     z-index: 995;
 }
@@ -52,19 +65,19 @@ a{
 
 }
 .height-correct-skills{
-    height: 30vh;
-    margin-top: 7rem;
+    height: 5vh;
+    margin-top: 11rem;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 .height-correct-whoIme{
-    margin-top: 15rem;
+    margin-top:30rem;
     display: flex;
     /* flex-wrap: wrap; */
 }
 .height-correct-proyectos{
-    margin-top: 15rem;
+    top: 15rem;
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -75,9 +88,21 @@ a{
     background-color: #3e3f6c;
 }
 .bg-projects{
-    background-color: #505163;
-
-
+    
+    
+    box-shadow: 10px 3px 15px 0px rgba(0, 0, 0, 0.3);
+    
+}
+.bg-projects:hover{
+    filter: blur(0px);
+    background-color: #5dabcf;
+    box-shadow: 10px 3px 15px 12px rgba(0, 0, 0, 0.3);
+    transition: .5s ease;
+}
+.bg-projects:not(:hover){
+    /* background-color: #505163; */
+    /* box-shadow: 10px 3px 15px 12px rgba(0, 0, 0, 0.3); */
+    transition: .5s ease;
 }
 /* .bg-aboutme2{
     background-color: #907AD6;

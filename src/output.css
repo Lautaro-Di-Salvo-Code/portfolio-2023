@@ -779,25 +779,8 @@ a{
 
 
 
-.height-correct-skills{
-  height: 30vh;
-  margin-top: 7rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-}
 
-.height-correct-whoIme{
-  margin-top: 15rem;
-  display: flex;
-  /* flex-wrap: wrap; */
-}
 
-.height-correct-proyectos{
-  margin-top: 15rem;
-  display: flex;
-  /* flex-wrap: wrap; */
-}
 
 .text-color-special-string{
   color:#fcfcfc;

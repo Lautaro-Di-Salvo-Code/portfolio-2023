@@ -7,9 +7,33 @@ let buttonNavbar =()=>{
     let enlace = document.getElementById("barra-nav-link")
     let buttonOpen = document.querySelector("size-button-navbar-open")
     let buttonClose = document.querySelector("size-button-navbar-close")
-
-
+    let botonesEspañol = document.querySelectorAll(".es")
+    let botonesIngles = document.querySelectorAll(".eng")
+    let botonIdioma = document.getElementById("botonidioma")
+   
+    console.log(botonesIngles)
+    console.log(botonesEspañol)
     document.addEventListener("click" , e=>{
+
+
+
+        if(e.target.matches("#botonidioma")){
+            e.preventDefault()
+            botonIdioma.textContent = "Español"
+            botonesEspañol.style.display = "none"
+            
+            botonesIngles.style.display = "static"
+            
+        }else{
+            botonIdioma.textContent = "English"
+            botonesEspañol.style.display = "static"
+            botonesIngles.style.display = "none"
+
+        }
+        // if(e.target.matches("#botonIdioma")){
+        //     e.preventDefault()
+            
+        // }
 
         if(e.target.matches(".size-button-navbar-open ")){
             e.target.style.display = "none"
