@@ -30,12 +30,15 @@ i{
     top: 0;
     display: flex;
 
-    height: 4rem;
+    height: 5rem;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
     transition: ease-in-out 1s ;
     position: fixed;
-    background-color: #3e3f6c;
+    /* background-color: #3e3f6c; */
+    backdrop-filter: blur(1rem);
     z-index: 999;
 }
 
