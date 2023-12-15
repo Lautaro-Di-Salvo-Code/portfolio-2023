@@ -244,7 +244,7 @@ a{
     
 .img-arrow-scroll:hover{
     transition: 1s ;
-    background-color: #5c5db2;
+    /* background-color: #5c5db2; */
 }
 .img-arrow-scroll:not(:hover){
     transition: 1s ;
