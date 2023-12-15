@@ -221,10 +221,30 @@ a{
     border-radius:50%;
     outline: 10rem ;
     transition: all 1s ease ;
+    animation: bump 0.4s linear infinite alternate;
 } 
+.img-arrow::after {
+    content: '';  
+    box-sizing: border-box;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    border: 15px solid transparent;
+    border-bottom-color: #FFF;
+  }
+  @keyframes bump {
+    0% {
+      transform: translate(-50%, 5px);
+    }
+    100% {
+      transform: translate(-50%, -5px);
+    }
+  }
+    
 .img-arrow-scroll:hover{
     transition: 1s ;
-    background-color: #b6b6d1;
+    background-color: #5c5db2;
 }
 .img-arrow-scroll:not(:hover){
     transition: 1s ;
