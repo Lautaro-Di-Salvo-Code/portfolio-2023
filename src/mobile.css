@@ -139,7 +139,7 @@
         flex-direction: column;
         justify-content: space-around;
         z-index: 998;
-        height: 95vh;
+        height: 112vh;
         bottom: 0px;
         right: 0px;
         left: 0px;
@@ -166,7 +166,7 @@
         bottom: 0;
         
         height: 9vh;
-        background-color: #907AD6;
+        background-color: #2c2a4abf;
         z-index: 999;
     }
     .img-arrow-scroll{
