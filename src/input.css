@@ -71,7 +71,7 @@ a{
 }
 
 .bg-imagen{
-    background-image: url(/assets/yoCodeando.png);
+    background-image: url(/assets/yoCodeando.webp);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -122,25 +122,25 @@ a{
 }
 .index2{
     z-index: 994;
-
+    
 }
 .height-correct-skills{
     height: 5vh;
-    margin-top: 11rem;
+    margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 .height-correct-whoIme{
-    margin-top:14rem;
+    margin-top:7rem;
     display: flex;
     /* flex-wrap: wrap; */
 }
-.height-correct-proyectos{
-    top: 15rem;
+/* .height-correct-proyectos{
+    
     display: flex;
-    /* flex-wrap: wrap; */
-}
+    
+} */
 .box-tecnologies{
     margin: 0 auto;
     width: 100%;
@@ -148,6 +148,26 @@ a{
     justify-content: space-around;
     flex-direction: row;
     gap: 1rem;
+}
+.top-aboutme{
+    position: relative;
+    top: 3rem;
+}
+.box-tecnologies-projects{
+    margin: 0 auto;
+    width: 78%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1rem;
+}
+.tecnologias-bg-projects{
+    border-radius: 3rem;
+    
+}
+.box-tecnologies-projects img{
+    width: 3rem;
+    
 }
 .about-me-img{
     height: auto;
@@ -170,28 +190,48 @@ a{
     background-color: #4F518C;
 }
 .bg-aboutme2{
-    background-color: #3e3f6c;
+    background-color: #4f518c;
 }
 .bg-projects{
-    
-    
-    box-shadow: 10px 3px 15px 0px rgba(0, 0, 0, 0.3);
-    
+    box-shadow:  0px 1px 0px 1px rgba(0, 0, 0, 0.3);
 }
 .bg-projects:hover{
-    filter: blur(0px);
-    background-color: #5dabcf;
-    box-shadow: 10px 3px 15px 12px rgba(0, 0, 0, 0.3);
-    transition: .5s ease;
+    
+    -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    
+    
 }
-.bg-projects:not(:hover){
-    /* background-color: #505163; */
-    /* box-shadow: 10px 3px 15px 12px rgba(0, 0, 0, 0.3); */
-    transition: .5s ease;
-}
-/* .bg-aboutme2{
-    background-color: #907AD6;
-} */
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes shadow-pop-tr {
+    0% {
+      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+              box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+      -webkit-transform: translateX(-8px) translateY(8px);
+              transform: translateX(-8px) translateY(8px);
+    }
+  }
+
+  
+  
+
+
+
 .text-color-special-string{
     color:#F10404;
 }
@@ -264,14 +304,16 @@ a{
     gap: 2rem;
 }
 .margin-aboutme{
-    margin-bottom: 38%;
+    margin-bottom: 36rem;
 }
 .margin-projects{
     margin-bottom: 45%;
 }
 .width-projects{
     width: 100%;
+    /* max-height: 8rem; */
 }
+
 
 .text-pop-up-top{
 	-webkit-animation: text-pop-up-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -340,6 +382,7 @@ a{
 }
 .projects-text-color-desctiprion{
     /* color:#907AD6 ; */
+    padding: 6px 3rem;
     text-shadow: 2px 4px 4px #dabfff ;
 }
 .font-family-mochi{

@@ -12,9 +12,13 @@
         font-size: 8vw;
     }
 
+  
+    .bg-projects:hover{
+        animation: none;
+    }
     .bg-imagen-mob{
 
-        background-image: url(/assets/fondoCelular.png);
+        background-image: url(/assets/fondoCelular.webp);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -30,6 +34,10 @@
         display: none;
 
     }
+    .width-projects{
+        width: 100%;
+        max-height: 8rem;
+    }
     .box-tecnologies-mob{
 
         margin: 0 auto;
@@ -42,7 +50,7 @@
     
     }
     .margin-aboutme{
-        margin-bottom: 171%;
+        margin-bottom: 55rem;
     }
     .aboutme-grid{
         display: grid ;
