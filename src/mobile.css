@@ -175,7 +175,7 @@
         width: 4rem;
         z-index: 995;
         position: fixed;
-        right: 1rem;
+        right: 4px;
         top: 30rem;
         border-radius:3rem;
         /* background-color: #5c5db2; */
