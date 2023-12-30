@@ -33,7 +33,7 @@ let buttonNavbar =()=>{
 
         }
         
-        if(window.scrollY > 200){
+        if(window.scrollY > 56){
             barranav.classList.add("nav-options-fixed")
         }else{
             

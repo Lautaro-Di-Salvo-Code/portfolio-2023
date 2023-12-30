@@ -24,7 +24,7 @@ i{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    transition: ease-in-out 1s ;
+    transition: ease-in-out .2s ;
 }
 .nav-options-fixed{
     top: 0;
@@ -35,9 +35,9 @@ i{
     justify-content: space-around;
     flex-wrap: wrap;
     align-content: center;
-    transition: ease-in-out 1s ;
+    transition: ease-in-out .2s ;
     position: fixed;
-    /* backdrop-filter: blur(1rem); */
+    
     background-color: #3e3f6c;
     z-index: 999;
 }
@@ -49,8 +49,13 @@ body{
     overflow-x: hidden;
     /* font-family: 'Mochiy Pop One', sans-serif; */
     font-family: 'Jost', sans-serif;
+    background-image: url(/assets/icon-code.svg);
+    background-size: 1.5rem;
+    background-repeat: repeat;
+    
    
 }
+
 a{
     cursor: pointer !important;
 }
