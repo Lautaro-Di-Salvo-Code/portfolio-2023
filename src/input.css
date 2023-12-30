@@ -115,7 +115,7 @@ a{
 }
 .tecnologias-bg{
     border-radius: 3rem;
-    background-color: #3e3f6c;
+    background-color: #4f518c;
 }
 .index{
     z-index: 995;
@@ -136,16 +136,26 @@ a{
     display: flex;
     /* flex-wrap: wrap; */
 }
-/* .height-correct-proyectos{
+.height-correct-proyectos{
+    height: 123vh;
     
-    display: flex;
     
-} */
+}
+.padding-offer{
+    padding: 3rem;
+}
+.height-correct-contact{
+    margin-top: 20rem;
+    height: 50vh;
+}
+.size-svg-contact1{
+    width: 3rem;
+}
 .box-tecnologies{
     margin: 0 auto;
-    width: 100%;
+    width: 89%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     gap: 1rem;
 }
@@ -155,17 +165,66 @@ a{
 }
 .box-tecnologies-projects{
     margin: 0 auto;
-    width: 78%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     gap: 1rem;
 }
+.box-contact{
+    margin: 0 auto;
+    width: 60%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 1rem;
+}
+.box-contact svg{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+/* .box-contact svg:hover{
+    fill: #2c2a4a;
+    transition: .4s all ease;
+    
+
+} */
+.telefono svg:hover{
+    fill: #020204;
+    transition: .4s all ease;
+    
+
+}
+.instagram svg:hover{
+    fill: #ea7312;
+    transition: .4s all ease;
+    
+
+}
+.mail svg:hover{
+    fill: #ff4b4b;
+    transition: .4s all ease;
+    
+
+}
+.box-contact svg:not(hover){
+    
+    transition: .4s all ease;
+}
+
 .tecnologias-bg-projects{
     border-radius: 3rem;
     
 }
 .box-tecnologies-projects img{
+    width: 3rem;
+    
+}
+.box-box-contact img{
     width: 3rem;
     
 }
@@ -299,15 +358,16 @@ a{
 }
 .grid-projects{
     display: grid;
-    grid-template-rows: repeat(3, 50%);
+    grid-template-rows: repeat(2,27rem);
     grid-template-columns: repeat(2, 45%);
     gap: 2rem;
+    margin: 2rem;
 }
 .margin-aboutme{
     margin-bottom: 36rem;
 }
 .margin-projects{
-    margin-bottom: 45%;
+    /* margin-bottom: 36rem; */
 }
 .width-projects{
     width: 100%;
