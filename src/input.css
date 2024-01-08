@@ -171,12 +171,17 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 1rem;.1em
+    gap: 1rem;
 }
 
 .about-me-title{
     position: relative;
     top: 9rem;
+
+}
+.projects-title{
+    position: relative;
+    top: 3rem;
 
 }
 
@@ -285,6 +290,10 @@ a{
     display: none;
 }
 .bg-aboutme1{
+    background-color: #4F518C;
+}
+.bg-projects{
+    margin: 2rem 3rem 3rem 3rem;
     background-color: #4F518C;
 }
 .bg-aboutme2{
