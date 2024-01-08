@@ -18,6 +18,9 @@ i{
 .eng{
     display: none !important;
 }
+#enlaceSkill{
+
+}
 .nav-options{
     top: 1rem;
     position: relative;
@@ -38,7 +41,7 @@ i{
     transition: ease-in-out .2s ;
     position: fixed;
     
-    background-color: #3e3f6c;
+    background-color: #3e3f6cc5;
     z-index: 999;
 }
 
@@ -64,7 +67,11 @@ a{
 .ancho-proyectos >*{
     cursor: pointer;
 }
-
+.margin-hardskills{
+    position: relative;
+    top: 7rem;
+    /* margin-top: 10%; */
+}
 .article-options-mob{
     display: none;
 }
@@ -133,13 +140,13 @@ a{
 }
 .height-correct-skills{
     height: 5vh;
-    margin-top: 4rem;
+    margin:20% auto 23% auto;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
 }
 .height-correct-whoIme{
-    margin-top:7rem;
+    margin-top:14rem;
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -164,12 +171,37 @@ a{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 1rem;
+    gap: 1rem;.1em
 }
-.top-aboutme{
+
+.about-me-title{
     position: relative;
-    top: 3rem;
+    top: 9rem;
+
 }
+
+.pastilla-html{
+    background-color: rgba(255, 21, 0, 0.656);
+    padding: .1em .3em;
+}
+.pastilla-css{
+    background-color: rgba(41, 131, 248, 0.872);
+    padding: .1em .3em;
+}
+.pastilla-js{
+    background-color: gold;
+    padding: .1em .3em;
+}
+.pastilla-tailwind{
+    background-color: rgb(0, 183, 255);
+    padding: .1em .3em;
+}
+.pastilla-js p{
+    color: #020204;
+    font-weight: bold;
+}
+   
+    
 .box-tecnologies-projects{
     margin: 0 auto;
     width: 60%;

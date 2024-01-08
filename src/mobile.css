@@ -14,6 +14,9 @@
         padding: 5rem 3rem 1rem 3rem;
         
     }
+    .box-tecnologies-projects{
+        gap: 0;
+    }
     .my-description{
         font-size: 8vw;
     }
