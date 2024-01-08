@@ -272,6 +272,34 @@ a{
     width: 3rem;
     
 }
+div > details{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+details{
+    margin: 8px 5px;
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+    display: block;
+    background-color: #4F518C;
+    content: "🎈";
+}
+details[open]{
+    height: 2rem;
+    width: 5rem;
+    cursor: pointer;
+    display: block;
+    /* background-color: #8c5b4f; */
+}
+details p{
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    background-color: #8183c3;
+}
 .about-me-img{
     height: auto;
     width: 24rem;
