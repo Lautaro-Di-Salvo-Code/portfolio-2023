@@ -70,7 +70,7 @@ a{
 .margin-hardskills{
     position: relative;
     top: 7rem;
-    /* margin-top: 10%; */
+    
 }
 .article-options-mob{
     display: none;
@@ -139,8 +139,8 @@ a{
     
 }
 .height-correct-skills{
-    height: 5vh;
-    margin:20% auto 23% auto;
+    /* height: 5vh; */
+    margin:10rem auto 10rem auto;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -397,10 +397,10 @@ a{
 }
 .grid-projects{
     display: grid;
-    grid-template-rows: repeat(2,27rem);
+    grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(2, 45%);
     gap: 2rem;
-    margin: 2rem;
+    margin: 5rem;
 }
 .margin-aboutme{
     margin-bottom: 36rem;
