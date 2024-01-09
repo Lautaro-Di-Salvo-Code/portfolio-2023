@@ -196,7 +196,8 @@
         right: 18%;
         top: 80vh;
         border-radius:3rem;
-        background-color: #5c5db2;
+        /* background-color: #5c5db2; */
+        backdrop-filter:blur(10rem);
         outline: 10rem ;
         /* transition: all 1s ease ; */
         animation: none;
