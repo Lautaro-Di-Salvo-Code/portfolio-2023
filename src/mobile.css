@@ -1,3 +1,8 @@
+@media screen and (max-width:900px) {
+    .title-text-size{
+        font-size: 1.5rem;
+    }
+}
 @media screen and (max-width:800px) {
     
     
@@ -50,7 +55,9 @@
         
     
     }
-    .bg-projects{
+
+
+    .bg-contentbox-projects{
         margin: 2rem .5rem 3rem .5rem;
     }
     .box-contact img{
@@ -196,8 +203,8 @@
         right: 18%;
         top: 80vh;
         border-radius:3rem;
-        /* background-color: #5c5db2; */
-        backdrop-filter:blur(10rem);
+        /* backdrop-filter:blur(10rem); */
+        background-color: #5c5db2;
         outline: 10rem ;
         /* transition: all 1s ease ; */
         animation: none;
