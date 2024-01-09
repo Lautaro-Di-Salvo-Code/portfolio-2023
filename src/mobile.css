@@ -50,7 +50,9 @@
         
     
     }
- 
+    .bg-projects{
+        margin: 2rem .5rem 3rem .5rem;
+    }
     .box-contact img{
         width: 3rem;
     }
@@ -191,12 +193,13 @@
         width: 4rem;
         z-index: 995;
         position: fixed;
-        right: 4px;
-        top: 30rem;
+        right: 18%;
+        top: 45rem;
         border-radius:3rem;
-        /* background-color: #5c5db2; */
+        background-color: #5c5db2;
         outline: 10rem ;
-        transition: all 1s ease ;
+        /* transition: all 1s ease ; */
+        animation: none;
     } 
     
     .size-button-navbar-open{
